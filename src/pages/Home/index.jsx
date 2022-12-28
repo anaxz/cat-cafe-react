@@ -1,8 +1,16 @@
 import React from "react";
 
+import { MeetTheTeam } from '../../components'
+
 const Home = () => {
     return <div className="home-container">
-        <p>welcome</p>
+        <p>slider here...</p>
+
+        <MeetTheTeam />
+
+        <div>
+            <p>...and the humans</p>
+        </div>
     </div>
 }
 
