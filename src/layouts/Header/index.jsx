@@ -12,6 +12,7 @@ function Header() {
             <NavLink className='nav-link' to='/'>Home</NavLink> 
             <NavLink className='nav-link' to='menu'>Menu</NavLink>
             <NavLink className='nav-link' to='contact-us'>Contact us</NavLink>
+            <NavLink className='nav-link' to='login'>Login</NavLink>
         </Navbar>
         <Outlet />
     </>
