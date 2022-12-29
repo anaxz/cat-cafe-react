@@ -1,11 +1,10 @@
 import React from "react";
 
-import { MeetTheTeam } from '../../components'
+import { Slider, MeetTheTeam } from '../../components'
 
 const Home = () => {
     return <div className="home-container">
-        <p>slider here...</p>
-
+        <Slider />
         <MeetTheTeam />
 
         <div>

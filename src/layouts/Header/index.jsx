@@ -9,7 +9,7 @@ function Header() {
     return <>
         <h1>Cat Cafe</h1>
         <Navbar id='navbar'>
-            <NavLink className='nav-link' to='home'>Home</NavLink> 
+            <NavLink className='nav-link' to='/'>Home</NavLink> 
             <NavLink className='nav-link' to='menu'>Menu</NavLink>
             <NavLink className='nav-link' to='contact-us'>Contact us</NavLink>
         </Navbar>
